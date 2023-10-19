@@ -21,7 +21,7 @@ form.addEventListener("submit", (event) => {
     score_board.innerHTML=`
     <div>
     <p class="playername">${first_name} ${last_name}</p>
-    <p class="date">Jan 2023: 09:24:44</p>
+    <p class="date">`{generatedte()}`</p>
 </div>
 <p class="player-country">${country}</p>
 <p class="player-score">${score}</p>
