@@ -45,6 +45,7 @@ form.reset();
 
 
 add_buttom();
+sort();
 
 function add_buttom(){
     let allbut=document.querySelectorAll('.btn');
